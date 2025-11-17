@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Babiboo Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <!-- header -->
+    <section id="header">
+        <a href="#"><img src="image/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a class="active" href="shop.html">Sản phẩm</a></li>
+                <li><a href="blog.html">Mới nhất</a></li>
+                <li><a href="about.html">Về chúng tôi</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <form action="#" class="search" role="sreach">
+            <input aria-label="Tìm kiếm" placeholder="Tìm kiếm sản phẩm...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <div>
+          <ul id="navbar">
+           <li><a href="dangnhap.html">Đăng nhập</a></li>
+           <li><a href="giohang.html">Giỏ hàng</a></li>
+          </ul>
+        </div>  
+    </section>
+    <!-- product detalls -->
+    <section id="product-details" class="section-p1">
+      <div class="single-pro-image">
+        <input type="radio" name="choose-img" id="imgg-1" checked>
+        <div class="main-img"></div>
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <label for="imgg-1">
+                  <img src="image/product/s2.jpg" class="small-img">
+                </label>
+            </div>
+        </div>
+      </div>
+      <div class="single-pro-details">
+        <h6>Home / Hoodie</h6>
+        <h4>Áo Hoodie Nam Gucci Ancora</h4>
+        <h2>$149</h2>
+        <select>
+            <option>Chọn kích cỡ</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Thêm vào giỏ hàng</button>
+        <h4>Thông tin sản phẩm</h4>
+        <span>CAM KẾT CHÍNH HÃNG 100%</span>
+        <p>Áo Hoodie Nam Gucci Ancora được làm từ chất liệu cotton cao cấp, mang lại cảm giác mềm mại và thoáng mát khi mặc. Thiết kế đơn giản nhưng tinh tế với logo Gucci nổi bật trên ngực, tạo nên phong cách thời trang cá tính và hiện đại. Áo hoodie này phù hợp cho cả nam và nữ, dễ dàng phối hợp với nhiều trang phục khác nhau, từ quần jeans đến quần shorts. Với sự kết hợp hoàn hảo giữa chất lượng và thiết kế, áo Hoodie Nam Gucci Ancora là lựa chọn lý tưởng cho những ai yêu thích thời trang đường phố.</p>
+      </div>
+    </section>
+    <!-- product -->
+    <section id="product1" class="section-p1">
+      <h2>Sản Phẩm Nổi Bật</h2>
+      <p>Những sản phẩm được bán chạy nhất trong tuần</p>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='product.html';">
+          <img src="image/product/s1.jpg" alt="">
+          <div class="des">
+            <span>Chrome Hearts</span>
+            <h5>T-Shirt Black Unisex</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$79</h4>
+          </div>
+          <a href="#">
+           <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-heart heart"></i>
+          </a>
+        </div>
+
+        <div class="pro" onclick="window.location.href='productt.html';">
+          <img src="image/product/s2.jpg" alt="">
+          <div class="des">
+            <span>Gucci</span>
+            <h5>Hoodie Ancora</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$149</h4>
+          </div>
+          <a href="#">
+           <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-heart heart"></i>
+          </a>
+        </div> 
+
+        <div class="pro" onclick="window.location.href='producttt.html';">
+          <img src="image/product/s3.jpg" alt="">
+          <div class="des">
+            <span>Louis Vuitton</span>
+            <h5>Signature Cargo Pants</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$199</h4>
+          </div>
+          <a href="#">
+           <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-heart heart"></i>
+          </a>
+        </div>
+
+        <div class="pro" onclick="window.location.href='productttt.html';">
+          <img src="image/product/s4.jpg" alt="">
+          <div class="des">
+            <span>Louis Vuitton</span>
+            <h5>LV Skate Dennim Pants</h5>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h4>$299</h4>
+          </div>
+          <a href="#">
+           <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-heart heart"></i>
+          </a>
+        </div>
+    </section>
+    <!-- new letter -->
+    <section id="newletter" class="section-p1 section-m1">
+      <div class="new-letter">
+        <h4>Đăng kí nhận bản tin</h4>
+        <p>Nhận thông tin cập nhật qua Email về sản phẩm mới nhất của chúng tôi và <span>các ưu đãi đặc quyền</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Đăng ký</button>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="section-p1">
+      <div class="col">
+        <img class="logo" src="image/logo1.jpg" alt="">
+        <h4>Thông Tin Liên Hệ</h4>
+        <p><strong>Địa chỉ: </strong>Huyền Kỳ, Phú Lãm, Hà Đông</p>
+        <p><strong>Số điện thoại: </strong>0815132384</p>
+        <p><strong>Thời gian: </strong>08:00 - 19:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Theo chúng tôi</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>Liên Hệ</h4>
+        <a href="#">Về chúng tôi</a>
+        <a href="#">Thông tin giao hàng</a>
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản & Điều khiển</a>
+        <a href="#">Liên hệ chúng tôi</a>
+      </div>
+      <div class="col">
+        <h4>Tài khoản của chúng tôi</h4>
+        <a href="#">Đăng nhập</a>
+        <a href="#">Xem giỏ hàng</a>
+        <a href="#">Sản phẩm yêu thích</a>
+        <a href="#">Thoi dõi đơn hàng của chúng tôi</a>
+        <a href="#">Hỗ trợ đổi trả 7 ngày</a>
+      </div>
+      <div class="col-install">
+        <p>Phương thức thanh toán</p>
+        <img src="image/pay/pay.png" alt="">
+      </div>
+      <div class="copyright">
+        <p>© 2025, Babiboo</p>
+      </div>
+    </footer>
+</body>
+</html>
